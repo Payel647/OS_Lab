@@ -38,3 +38,11 @@ do
     echo "$j"
     j=$((j - 1))
 done
+
+# ----------- for loop -------
+echo "Counting from 1 to 5: "
+for (( i=1; i<=5; i++ ))
+do
+    echo "Number: $i"
+done
+
